@@ -9,8 +9,8 @@
 
     public enum QualifierType { EqualTo, NotEqualTo, LessThan, GreaterThan, LessThanOrEqual, GreaterThanOrEqual, Between, NotBetween }
 
-    public enum FactorType { Risk }
+    public enum FactorType { Risk } 
 
-    public enum UserMetricState { Good, AtRisk, Unknown }
+    public enum UserMetricState { Good, AtRisk, Unknown, Fuck }
 
 }
