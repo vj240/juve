@@ -1,4 +1,4 @@
-﻿namespace FELA.Data
+﻿namespace Data
 {
 
     public enum QuestionType { Simple, RadioButton, Table, CheckBox }
