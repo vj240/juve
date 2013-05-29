@@ -1,7 +1,11 @@
-﻿@model Juve.Model.Team
+﻿@using System.Web.Optimization
+@using Juve.Model
+@model Juve.Model.Team
 
 @{
     ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";    
+    
 }
 
 <h2>Edit</h2>
@@ -28,6 +32,21 @@
             @Html.EditorFor(model => model.YearOfFoundation)
             @Html.ValidationMessageFor(model => model.YearOfFoundation)
         </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Country)
+        </div>
+        
+        <div class="editor-field">
+            
+            @{
+                List<Country> list = ViewBag.Countries;
+                var items = new SelectList(list, "CountryId", "CountryName");
+            }
+            @Html.DropDownListFor(x => x, @items);
+            @*@Html.ValidationMessageFor(model => model.Country)*@
+        </div>
+
 
         @Html.HiddenFor(model => model.Id)
 

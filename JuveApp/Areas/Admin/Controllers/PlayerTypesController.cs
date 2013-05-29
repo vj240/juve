@@ -10,25 +10,17 @@ namespace JuveApp.Areas.Admin.Controllers
     [Authorize(Roles = "Admin")]
     public class PlayerTypesController : BaseController
     {
-        private readonly JuveContext _db;
         private readonly IPlayerTypesRepository _repository;
 
         public PlayerTypesController()
         {
-            _db = new JuveContext();
-            _repository = new PlayerTypesRepository(_db);
+            _repository = new PlayerTypesRepository(Db);
         }
-
-        //
-        // GET: /Admin/PlayerTypes/
 
         public ActionResult Index()
         {
             return View(_repository.DbSet);
         }
-
-        //
-        // GET: /Admin/PlayerTypes/Details/5
 
         public ActionResult Details(int id = 0)
         {
@@ -40,16 +32,10 @@ namespace JuveApp.Areas.Admin.Controllers
             return View(playertype);
         }
 
-        //
-        // GET: /Admin/PlayerTypes/Create
-
         public ActionResult Create()
         {
             return View();
         }
-
-        //
-        // POST: /Admin/PlayerTypes/Create
 
         [HttpPost]
         public ActionResult Create(PlayerType playertype)
@@ -63,9 +49,6 @@ namespace JuveApp.Areas.Admin.Controllers
             return View(playertype);
         }
 
-        //
-        // GET: /Admin/PlayerTypes/Edit/5
-
         public ActionResult Edit(int id = 0)
         {
             PlayerType playertype = _repository.Single(type => type.Id == id);
@@ -75,9 +58,6 @@ namespace JuveApp.Areas.Admin.Controllers
             }
             return View(playertype);
         }
-
-        //
-        // POST: /Admin/PlayerTypes/Edit/5
 
         [HttpPost]
         public ActionResult Edit(PlayerType playertype)
@@ -90,9 +70,6 @@ namespace JuveApp.Areas.Admin.Controllers
             return View(playertype);
         }
 
-        //
-        // GET: /Admin/PlayerTypes/Delete/5
-
         public ActionResult Delete(int id = 0)
         {
             PlayerType playertype = _repository.Single(type => type.Id == id);
@@ -103,9 +80,6 @@ namespace JuveApp.Areas.Admin.Controllers
             return View(playertype);
         }
 
-        //
-        // POST: /Admin/PlayerTypes/Delete/5
-
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
@@ -114,10 +88,5 @@ namespace JuveApp.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            _db.Dispose();
-            base.Dispose(disposing);
-        }
     }
 }

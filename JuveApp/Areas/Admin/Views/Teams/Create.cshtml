@@ -1,12 +1,16 @@
-﻿@model Juve.Model.Team
+﻿@using System.Web.Optimization
+@using Juve.Model
+@model Juve.Model.Team
 
 @{
     ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";    
 }
 
 <h2>Create</h2>
 
-@using (Html.BeginForm()) {
+@using (Html.BeginForm())
+{
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
 
@@ -28,6 +32,23 @@
             @Html.EditorFor(model => model.YearOfFoundation)
             @Html.ValidationMessageFor(model => model.YearOfFoundation)
         </div>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Country)
+        </div>
+        
+        <div class="editor-field">
+            
+            @{
+                List<Country> list = ViewBag.Countries;
+                var items = new SelectList(list, "Id", "Name", (Model == null || Model.Country == null) ? null : Model.Country);
+            }
+
+            @Html.DropDownListFor(x => x.Country.Id, items, "--- empty ---")
+            @Html.ValidationMessageFor(model => model.Country)
+@*            @Html.HiddenFor(model => model.Country.Name)*@
+        </div>
+
 
         <p>
             <input type="submit" value="Create" />

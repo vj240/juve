@@ -2,11 +2,19 @@
 using System.Threading;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Juve.Data;
 
 namespace JuveApp.Core
 {
     public abstract class BaseController : Controller
     {
+        protected readonly JuveContext Db;
+
+        protected BaseController()
+        {
+            Db = new JuveContext("DefaultConnection");
+        }
+
         protected override void Initialize(RequestContext requestContext)
         {
             base.Initialize(requestContext);
@@ -46,5 +54,10 @@ namespace JuveApp.Core
         }
 
 
+        protected override void Dispose(bool disposing)
+        {
+            Db.Dispose();
+            base.Dispose(disposing);
+        }
     }
 }

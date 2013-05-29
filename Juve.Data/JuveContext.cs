@@ -30,6 +30,11 @@ namespace Juve.Data
         #endregion
 
 
+        public JuveContext(string connectionString) : base(connectionString)
+        {
+            
+        }
+
         public JuveContext() :base()
         {
 

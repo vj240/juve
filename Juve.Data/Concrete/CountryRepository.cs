@@ -1,11 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Data.Entity;
+using Juve.Data.Abstractions;
+using Juve.Model;
 
 namespace Juve.Data.Concrete
 {
-    class CountryRepository
+    public class CountryRepository : BaseRepository<Country>, ICountryRepository
     {
+        public CountryRepository(DbContext dbContext)
+            : base(dbContext)
+        {
+        }
     }
 }

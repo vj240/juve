@@ -46,8 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstractions\IBaseRepository.cs" />
+    <Compile Include="Abstractions\ICountryRepository.cs" />
     <Compile Include="Abstractions\IPlayerTypesRepository.cs" />
     <Compile Include="Abstractions\BaseRepository.cs" />
+    <Compile Include="Abstractions\ITeamsRepository.cs" />
+    <Compile Include="Concrete\CountryRepository.cs" />
+    <Compile Include="Concrete\TeamsRepository.cs" />
     <Compile Include="Migrations\201210201122311_InitialCreate.cs" />
     <Compile Include="Migrations\201210201122311_InitialCreate.Designer.cs">
       <DependentUpon>201210201122311_InitialCreate.cs</DependentUpon>

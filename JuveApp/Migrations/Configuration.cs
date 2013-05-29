@@ -1,3 +1,5 @@
+using Juve.Data;
+
 namespace JuveApp.Migrations
 {
     using System;
@@ -5,14 +7,14 @@ namespace JuveApp.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration</* TODO: put your Code First context type name here */>
+    internal sealed class Configuration : DbMigrationsConfiguration<JuveContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(/* TODO: put your Code First context type name here */ context)
+        protected override void Seed(JuveContext context)
         {
             //  This method will be called after migrating to the latest version.
 

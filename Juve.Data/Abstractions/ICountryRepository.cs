@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Juve.Model;
 
 namespace Juve.Data.Abstractions
 {
-    interface ICountryRepository
+    public interface ICountryRepository : IBaseRepository<Country>
     {
     }
 }

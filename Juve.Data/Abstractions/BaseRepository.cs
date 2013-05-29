@@ -22,6 +22,10 @@ namespace Juve.Data.Abstractions
             DbSet = DbContext.Set<TEntity>();
         }
 
+        protected BaseRepository()
+        {
+        }
+
         public TEntity Single(Expression<Func<TEntity, bool>> where)
         {
             return DbSet.SingleOrDefault(where);

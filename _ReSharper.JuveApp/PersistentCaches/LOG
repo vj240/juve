@@ -1,5 +1,5 @@
-2013/05/29-12:05:52.984 e94 Recovering log #22
-2013/05/29-12:05:52.984 e94 Level-0 table #24: started
-2013/05/29-12:05:53.078 e94 Level-0 table #24: 10621 bytes OK
-2013/05/29-12:05:53.109 e94 Delete type=0 #22
-2013/05/29-12:05:53.109 e94 Delete type=3 #20
+2013/05/29-15:25:15.308 26dc Recovering log #28
+2013/05/29-15:25:15.309 26dc Level-0 table #31: started
+2013/05/29-15:25:15.422 26dc Level-0 table #31: 153146 bytes OK
+2013/05/29-15:25:15.482 26dc Delete type=0 #28
+2013/05/29-15:25:15.482 26dc Delete type=3 #26

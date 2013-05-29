@@ -1,33 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
+﻿using System.Data;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
+using Juve.Data.Abstractions;
+using Juve.Data.Concrete;
 using Juve.Model;
-using Juve.Data;
+using JuveApp.Core;
 
 namespace JuveApp.Areas.Admin.Controllers
 {
-    public class TeamsController : Controller
+    //[Authorize(Roles = "Admin")]
+    [Authorize(Users = "vj")]
+    public class TeamsController : BaseController
     {
-        private JuveContext db = new JuveContext();
+        private readonly ITeamsRepository _repository;
 
-        //
-        // GET: /Admin/Teams/
+        public TeamsController()
+        {
+            _repository = new TeamsRepository(Db);
+        }
 
         public ActionResult Index()
         {
-            return View(db.Teams.ToList());
+            return View(_repository.GetAll());
         }
-
-        //
-        // GET: /Admin/Teams/Details/5
 
         public ActionResult Details(int id = 0)
         {
-            Team team = db.Teams.Find(id);
+            var team = _repository.Single(t => t.Id == id);
             if (team == null)
             {
                 return HttpNotFound();
@@ -35,16 +34,11 @@ namespace JuveApp.Areas.Admin.Controllers
             return View(team);
         }
 
-        //
-        // GET: /Admin/Teams/Create
-
         public ActionResult Create()
         {
+            ViewBag.Countries = Db.Countries.ToList();
             return View();
         }
-
-        //
-        // POST: /Admin/Teams/Create
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -52,29 +46,24 @@ namespace JuveApp.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Teams.Add(team);
-                db.SaveChanges();
+                _repository.AddItem(team);
                 return RedirectToAction("Index");
             }
-
+            ViewBag.Countries = Db.Countries.ToList();
             return View(team);
         }
 
-        //
-        // GET: /Admin/Teams/Edit/5
-
         public ActionResult Edit(int id = 0)
         {
-            Team team = db.Teams.Find(id);
+            var team = _repository.Single(t => t.Id == id);
             if (team == null)
             {
                 return HttpNotFound();
             }
+
+            ViewBag.Countries = Db.Countries.ToList();
             return View(team);
         }
-
-        //
-        // POST: /Admin/Teams/Edit/5
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -82,19 +71,15 @@ namespace JuveApp.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(team).State = EntityState.Modified;
-                db.SaveChanges();
+                _repository.UpdateItem(team);
                 return RedirectToAction("Index");
             }
             return View(team);
         }
 
-        //
-        // GET: /Admin/Teams/Delete/5
-
         public ActionResult Delete(int id = 0)
         {
-            Team team = db.Teams.Find(id);
+            var team = _repository.Single(t => t.Id == id);
             if (team == null)
             {
                 return HttpNotFound();
@@ -102,23 +87,16 @@ namespace JuveApp.Areas.Admin.Controllers
             return View(team);
         }
 
-        //
-        // POST: /Admin/Teams/Delete/5
-
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Team team = db.Teams.Find(id);
-            db.Teams.Remove(team);
-            db.SaveChanges();
+            var team = _repository.Single(t => t.Id == id);
+            _repository.DeleteItem(team);
+            Db.SaveChanges();
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            db.Dispose();
-            base.Dispose(disposing);
-        }
     }
+
 }

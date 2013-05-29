@@ -117,10 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CountryName" xml:space="preserve">
+    <value>Название страны</value>
+  </data>
+  <data name="CountryNameErrorMessage" xml:space="preserve">
+    <value>Поле Название страны не может быть пустым</value>
+  </data>
   <data name="PlayerTypeName" xml:space="preserve">
     <value>Тип игрока</value>
   </data>
   <data name="PlayerTypeNameErrorMessage" xml:space="preserve">
     <value>Поле Тип игрока не может быть пустым</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>Название команды</value>
+  </data>
+  <data name="TeamNameErrorMessage" xml:space="preserve">
+    <value>Поле Название команды не может быть пустым</value>
+  </data>
+  <data name="YearOfFoundation" xml:space="preserve">
+    <value>Год основания</value>
+  </data>
+  <data name="YearOfFoundationErrorMessage" xml:space="preserve">
+    <value>Поле Год основания не может быть пустым</value>
   </data>
 </root>
