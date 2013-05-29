@@ -1,0 +1,11 @@
+E:\Training\Projects\JuveApp\Juve.Model\bin\Debug\Juve.Model.dll
+E:\Training\Projects\JuveApp\Juve.Model\bin\Debug\Juve.Model.pdb
+E:\Training\Projects\JuveApp\Juve.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\Training\Projects\JuveApp\Juve.Model\obj\Debug\Juve.Model.dll
+E:\Training\Projects\JuveApp\Juve.Model\obj\Debug\Juve.Model.pdb
+E:\Training\Projects\JuveApp\Juve.Model\obj\Debug\Juve.Model.Resources.ModelResources.resources
+E:\Training\Projects\JuveApp\Juve.Model\obj\Debug\GenerateResource.read.1.tlog
+E:\Training\Projects\JuveApp\Juve.Model\obj\Debug\GenerateResource.write.1.tlog
+E:\Training\Projects\JuveApp\Juve.Model\bin\Debug\ru-ru\Juve.Model.resources.dll
+E:\Training\Projects\JuveApp\Juve.Model\obj\Debug\Juve.Model.Resources.ModelResources.ru-ru.resources
+E:\Training\Projects\JuveApp\Juve.Model\obj\Debug\ru-ru\Juve.Model.resources.dll

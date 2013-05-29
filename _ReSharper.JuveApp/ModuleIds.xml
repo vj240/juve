@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="06DD99B9-6A9C-4692-9423-82604DE04069" ModuleId="Juve.Data" />
+  <Module PersistentId="A04D067D-3A32-488B-A9F8-8EB395C4DFFF" ModuleId="Juve.Web" />
+  <Module PersistentId="EB815256-A87F-41A3-9FBF-F61FD13975D5" ModuleId="JuveApp.Tests" />
+  <Module PersistentId="3E223B01-0549-4AC3-AE9F-B5995A25B7E4" ModuleId="Juve.Model" />
+  <Module PersistentId="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Mvc" />
+</Modules>

@@ -1,0 +1,14 @@
+E:\Training\Projects\JuveApp\Juve.Data\bin\Debug\Juve.Data.dll
+E:\Training\Projects\JuveApp\Juve.Data\bin\Debug\Juve.Data.pdb
+E:\Training\Projects\JuveApp\Juve.Data\bin\Debug\EntityFramework.dll
+E:\Training\Projects\JuveApp\Juve.Data\bin\Debug\Juve.Model.dll
+E:\Training\Projects\JuveApp\Juve.Data\bin\Debug\Juve.Model.pdb
+E:\Training\Projects\JuveApp\Juve.Data\bin\Debug\EntityFramework.xml
+E:\Training\Projects\JuveApp\Juve.Data\obj\Debug\ResolveAssemblyReference.cache
+E:\Training\Projects\JuveApp\Juve.Data\obj\Debug\Juve.Data.dll
+E:\Training\Projects\JuveApp\Juve.Data\obj\Debug\Juve.Data.pdb
+E:\Training\Projects\JuveApp\Juve.Data\bin\Debug\Juve.Data.dll.config
+E:\Training\Projects\JuveApp\Juve.Data\obj\Debug\Juve.Data.Migrations.InitialCreate.resources
+E:\Training\Projects\JuveApp\Juve.Data\obj\Debug\GenerateResource.read.1.tlog
+E:\Training\Projects\JuveApp\Juve.Data\obj\Debug\GenerateResource.write.1.tlog
+E:\Training\Projects\JuveApp\Juve.Data\bin\Debug\ru-ru\Juve.Model.resources.dll
