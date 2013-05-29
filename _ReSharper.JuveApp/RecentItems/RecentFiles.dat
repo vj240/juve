@@ -1,54 +1,38 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/f:Web.config" caret="0" fromTop="0" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:IBaseRepository.cs" caret="384" fromTop="14" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:PlayerTypes/f:Delete.cshtml" caret="0" fromTop="0" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/f:packages.config" caret="0" fromTop="0" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/f:AdminAreaRegistration.cs" caret="455" fromTop="18" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/f:Global.asax.cs" caret="389" fromTop="13" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Controllers/f:AccountController.cs" caret="380" fromTop="19" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:BaseRepository.cs" caret="459" fromTop="15" />
-    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/d:Resources/f:ModelResources.Designer.cs" caret="416" fromTop="0" />
-    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:BaseEntity.cs" caret="0" fromTop="0" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/f:App.config" caret="809" fromTop="12" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Migrations/f:201210201122311_InitialCreate.cs" caret="0" fromTop="0" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Migrations/f:Configuration.cs" caret="470" fromTop="9" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/f:JuveContext.cs" caret="735" fromTop="7" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Migrations/f:Configuration.cs" caret="562" fromTop="19" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/f:Web.config" caret="1702" fromTop="22" />
-    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:RewardType.cs" caret="0" fromTop="0" />
-    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:TeamReward.cs" caret="0" fromTop="0" />
-    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:Player.cs" caret="152" fromTop="7" />
-    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:PlayerType.cs" caret="421" fromTop="10" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Core/f:Constants.cs" caret="0" fromTop="0" />
+    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/d:Resources/f:ModelResources.resx" caret="0" fromTop="0" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:PlayerTypes/f:Create.cshtml" caret="145" fromTop="7" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:IBaseRepository.cs" caret="196" fromTop="7" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Controllers/f:PlayerTypesController.cs" caret="897" fromTop="8" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Controllers/f:CountryController.cs" caret="1368" fromTop="13" />
     <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:Country.cs" caret="195" fromTop="7" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:ICountryRepository.cs" caret="69" fromTop="4" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Controllers/f:TeamsController.cs" caret="939" fromTop="15" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Core/f:BaseController.cs" caret="1322" fromTop="30" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:BaseRepository.cs" caret="918" fromTop="21" />
+    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:Team.cs" caret="983" fromTop="19" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Teams/f:Index.cshtml" caret="240" fromTop="15" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Teams/f:Details.cshtml" caret="112" fromTop="5" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Teams/f:Edit.cshtml" caret="1105" fromTop="21" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Teams/f:Delete.cshtml" caret="111" fromTop="5" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Migrations/f:Configuration.cs" caret="395" fromTop="14" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Concrete/f:TeamsRepository.cs" caret="25" fromTop="0" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/f:JuveContext.cs" caret="1030" fromTop="22" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Concrete/f:CountryRepository.cs" caret="307" fromTop="11" />
     <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Concrete/f:PlayerTypesRepository.cs" caret="299" fromTop="10" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:IPlayerTypesRepository.cs" caret="139" fromTop="6" />
-    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:PlayerReward.cs" caret="109" fromTop="4" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:PlayerTypes/f:Create.cshtml" caret="0" fromTop="0" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Concrete/f:CountryRepository.cs" caret="171" fromTop="6" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Controllers/f:PlayerTypesController.cs" caret="2285" fromTop="12" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:ITeamsRepository.cs" caret="56" fromTop="3" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:IPlayerTypesRepository.cs" caret="100" fromTop="4" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:PlayerTypes/f:Details.cshtml" caret="116" fromTop="6" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Country/f:Details.cshtml" caret="113" fromTop="6" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:PlayerTypes/f:Delete.cshtml" caret="115" fromTop="6" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Country/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:PlayerType.cs" caret="102" fromTop="4" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Country/f:Delete.cshtml" caret="0" fromTop="0" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Country/f:Edit.cshtml" caret="263" fromTop="15" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Teams/f:Create.cshtml" caret="1624" fromTop="37" />
   </RecentFiles>
   <RecentEdits>
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:PlayerTypes/f:Create.cshtml" caret="32" fromTop="1" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Views/d:Test/f:Edit.cshtml" caret="751" fromTop="35" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:IPlayerTypesRepository.cs" caret="110" fromTop="4" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:IBaseRepository.cs" caret="286" fromTop="11" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Models/f:AccountModels.cs" caret="1744" fromTop="38" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Controllers/f:AccountController.cs" caret="3731" fromTop="23" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Views/d:Shared/f:_LoginPartial.cshtml" caret="621" fromTop="8" />
-    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/d:Resources/f:ModelResources.Designer.cs" caret="0" fromTop="0" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:PlayerTypes/f:Edit.cshtml" caret="270" fromTop="15" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/f:Global.asax.cs" caret="0" fromTop="0" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Core/f:Constants.cs" caret="257" fromTop="10" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Core/f:BaseController.cs" caret="153" fromTop="7" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Controllers/f:HomeController.cs" caret="720" fromTop="31" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Views/d:Culture/f:Index.cshtml" caret="115" fromTop="4" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Controllers/f:CultureController.cs" caret="423" fromTop="15" />
     <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Models/f:CultureModel.cs" caret="35" fromTop="1" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:BaseRepository.cs" caret="1743" fromTop="63" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Concrete/f:PlayerTypesRepository.cs" caret="90" fromTop="4" />
     <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Views/d:Shared/f:_Layout.cshtml" caret="703" fromTop="16" />
     <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:Player.cs" caret="261" fromTop="13" />
     <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/f:Web.config" caret="727" fromTop="11" />
@@ -58,7 +42,25 @@
     <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:PlayerType.cs" caret="423" fromTop="11" />
     <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:Country.cs" caret="396" fromTop="9" />
     <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:ICountryRepository.cs" caret="69" fromTop="4" />
-    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Concrete/f:CountryRepository.cs" caret="27" fromTop="1" />
-    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Controllers/f:PlayerTypesController.cs" caret="178" fromTop="9" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Country/f:Create.cshtml" caret="263" fromTop="15" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Country/f:Edit.cshtml" caret="81" fromTop="3" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Country/f:Delete.cshtml" caret="25" fromTop="0" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Country/f:Index.cshtml" caret="565" fromTop="27" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Country/f:Details.cshtml" caret="25" fromTop="0" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Core/f:BaseController.cs" caret="839" fromTop="32" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Controllers/f:PlayerTypesController.cs" caret="849" fromTop="20" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:ITeamsRepository.cs" caret="0" fromTop="0" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Abstractions/f:BaseRepository.cs" caret="730" fromTop="26" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Concrete/f:PlayerTypesRepository.cs" caret="300" fromTop="11" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Concrete/f:CountryRepository.cs" caret="309" fromTop="12" />
+    <File id="06DD99B9-6A9C-4692-9423-82604DE04069/d:Concrete/f:TeamsRepository.cs" caret="287" fromTop="11" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Controllers/f:CountryController.cs" caret="0" fromTop="0" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Teams/f:Delete.cshtml" caret="111" fromTop="5" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Teams/f:Details.cshtml" caret="112" fromTop="5" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Teams/f:Index.cshtml" caret="123" fromTop="5" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Teams/f:Edit.cshtml" caret="1288" fromTop="24" />
+    <File id="3E223B01-0549-4AC3-AE9F-B5995A25B7E4/f:Team.cs" caret="978" fromTop="17" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Controllers/f:TeamsController.cs" caret="1356" fromTop="28" />
+    <File id="A04D067D-3A32-488B-A9F8-8EB395C4DFFF/d:Areas/d:Admin/d:Views/d:Teams/f:Create.cshtml" caret="1494" fromTop="17" />
   </RecentEdits>
 </RecentFiles>
