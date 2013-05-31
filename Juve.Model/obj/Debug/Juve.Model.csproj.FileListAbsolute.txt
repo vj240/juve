@@ -18,4 +18,6 @@ C:\Yura\juve12\Juve.Model\obj\Debug\Juve.Model.csproj.GenerateResource.Cache
 C:\Yura\juve12\Juve.Model\obj\Debug\ru-RU\Juve.Model.resources.dll
 C:\Yura\juve12\Juve.Model\obj\Debug\Juve.Model.dll
 C:\Yura\juve12\Juve.Model\obj\Debug\Juve.Model.pdb
+C:\Yura\juve12\Juve.Model\bin\Debug\EntityFramework.dll
+C:\Yura\juve12\Juve.Model\bin\Debug\EntityFramework.xml
 C:\Yura\juve12\Juve.Model\obj\Debug\Juve.Model.csprojResolveAssemblyReference.cache

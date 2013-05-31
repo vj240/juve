@@ -61,6 +61,24 @@ namespace Juve.Model.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Birth Date.
+        /// </summary>
+        public static string BirthDate {
+            get {
+                return ResourceManager.GetString("BirthDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Birth Date field cannot be null.
+        /// </summary>
+        public static string BirthDateErrorMessage {
+            get {
+                return ResourceManager.GetString("BirthDateErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Country Name.
         /// </summary>
         public static string CountryName {
@@ -75,6 +93,60 @@ namespace Juve.Model.Resources {
         public static string CountryNameErrorMessage {
             get {
                 return ResourceManager.GetString("CountryNameErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to End Date.
+        /// </summary>
+        public static string EndDate {
+            get {
+                return ResourceManager.GetString("EndDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Height.
+        /// </summary>
+        public static string Height {
+            get {
+                return ResourceManager.GetString("Height", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Note.
+        /// </summary>
+        public static string Note {
+            get {
+                return ResourceManager.GetString("Note", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Photo.
+        /// </summary>
+        public static string Photo {
+            get {
+                return ResourceManager.GetString("Photo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player Name.
+        /// </summary>
+        public static string PlayerName {
+            get {
+                return ResourceManager.GetString("PlayerName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Player Name field cannot be null.
+        /// </summary>
+        public static string PlayerNameErrorMessage {
+            get {
+                return ResourceManager.GetString("PlayerNameErrorMessage", resourceCulture);
             }
         }
         
@@ -97,6 +169,24 @@ namespace Juve.Model.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Start Date.
+        /// </summary>
+        public static string StartDate {
+            get {
+                return ResourceManager.GetString("StartDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Start Date field cannot be null.
+        /// </summary>
+        public static string StartDateErrorMessage {
+            get {
+                return ResourceManager.GetString("StartDateErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Team Name.
         /// </summary>
         public static string TeamName {
@@ -111,6 +201,24 @@ namespace Juve.Model.Resources {
         public static string TeamNameErrorMessage {
             get {
                 return ResourceManager.GetString("TeamNameErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Team Number.
+        /// </summary>
+        public static string TeamNumber {
+            get {
+                return ResourceManager.GetString("TeamNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Team Number field cannot be null.
+        /// </summary>
+        public static string TeamNumberErrorMessage {
+            get {
+                return ResourceManager.GetString("TeamNumberErrorMessage", resourceCulture);
             }
         }
         

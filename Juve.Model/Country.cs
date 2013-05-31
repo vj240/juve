@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Juve.Model
 {
@@ -9,7 +10,9 @@ namespace Juve.Model
         [Display(Name = "CountryName", ResourceType = typeof(Resources.ModelResources))]
         public string Name { get; set; }
 
-        public virtual ICollection<Player> Players { get; set; }
-        public virtual ICollection<Team> Teams { get; set; }
+        [NotMapped]
+        public ICollection<Player> Players { get; set; }
+        [NotMapped]
+        public ICollection<Team> Teams { get; set; }
     }
 }

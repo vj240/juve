@@ -1,5 +1,5 @@
-2013/05/29-15:25:15.308 26dc Recovering log #28
-2013/05/29-15:25:15.309 26dc Level-0 table #31: started
-2013/05/29-15:25:15.422 26dc Level-0 table #31: 153146 bytes OK
-2013/05/29-15:25:15.482 26dc Delete type=0 #28
-2013/05/29-15:25:15.482 26dc Delete type=3 #26
+2013/05/31-18:35:31.727 1eb8 Recovering log #41
+2013/05/31-18:35:31.727 1eb8 Level-0 table #44: started
+2013/05/31-18:35:31.767 1eb8 Level-0 table #44: 574 bytes OK
+2013/05/31-18:35:31.844 1eb8 Delete type=0 #41
+2013/05/31-18:35:31.845 1eb8 Delete type=3 #39

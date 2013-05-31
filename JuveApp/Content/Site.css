@@ -587,6 +587,30 @@ tr.pager td {
 }
 
 
+.editor-field {
+}
+
+.editor-label {
+}
+
+
+.admin-view-table {
+    width: 900px;
+    padding: 0 10px 0 0;
+    font-size: 12px;
+}
+
+.admin-view-table th {
+    width: 150px;
+    padding: 0 10px 0 0;
+    font-size: 12px;
+}
+
+.admin-view-table td {
+    padding: 0 10px 0 0;
+    font-size: 12px;
+}
+
 /********************
 *   Mobile Styles   *
 ********************/

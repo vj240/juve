@@ -11,7 +11,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table>
+<table class="admin-view-table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Name)
@@ -19,7 +19,9 @@
         <th>
             @Html.DisplayNameFor(model => model.YearOfFoundation)
         </th>
-        <th></th>
+        <th>
+            @Html.DisplayNameFor(model => model.CountryId)
+        </th>
     </tr>
 
 @foreach (var item in Model) {
@@ -29,6 +31,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.YearOfFoundation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Country.Name)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

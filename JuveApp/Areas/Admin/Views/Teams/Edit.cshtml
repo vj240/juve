@@ -1,6 +1,6 @@
 ﻿@using System.Web.Optimization
 @using Juve.Model
-@model Juve.Model.Team
+@model Team
 
 @{
     ViewBag.Title = "Edit";
@@ -38,13 +38,13 @@
         </div>
         
         <div class="editor-field">
-            
             @{
                 List<Country> list = ViewBag.Countries;
-                var items = new SelectList(list, "CountryId", "CountryName");
+                var items = new SelectList(list, "Id", "Name");
             }
-            @Html.DropDownListFor(x => x, @items);
-            @*@Html.ValidationMessageFor(model => model.Country)*@
+
+            @Html.DropDownListFor(x => x.CountryId, items, "")
+            @Html.ValidationMessageFor(model => model.CountryId)
         </div>
 
 

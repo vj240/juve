@@ -52,13 +52,9 @@
     <Compile Include="Abstractions\ITeamsRepository.cs" />
     <Compile Include="Concrete\CountryRepository.cs" />
     <Compile Include="Concrete\TeamsRepository.cs" />
-    <Compile Include="Migrations\201210201122311_InitialCreate.cs" />
-    <Compile Include="Migrations\201210201122311_InitialCreate.Designer.cs">
-      <DependentUpon>201210201122311_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Concrete\PlayerTypesRepository.cs" />
     <Compile Include="JuveContext.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,9 +68,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201210201122311_InitialCreate.resx">
-      <DependentUpon>201210201122311_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
+    <Content Include="Scripts\jquery-1.4.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.4.js" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <Content Include="Scripts\jquery.ui.core.js" />
+    <Content Include="Scripts\jquery.ui.core.min.js" />
+    <Content Include="Scripts\jquery.ui.datepicker.js" />
+    <Content Include="Scripts\jquery.ui.datepicker.min.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

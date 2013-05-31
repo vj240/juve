@@ -21,7 +21,5 @@ C:\Yura\juve12\Juve.Data\bin\Debug\Juve.Model.pdb
 C:\Yura\juve12\Juve.Data\bin\Debug\EntityFramework.xml
 C:\Yura\juve12\Juve.Data\bin\Debug\ru-ru\Juve.Model.resources.dll
 C:\Yura\juve12\Juve.Data\obj\Debug\Juve.Data.csprojResolveAssemblyReference.cache
-C:\Yura\juve12\Juve.Data\obj\Debug\Juve.Data.Migrations.InitialCreate.resources
-C:\Yura\juve12\Juve.Data\obj\Debug\Juve.Data.csproj.GenerateResource.Cache
 C:\Yura\juve12\Juve.Data\obj\Debug\Juve.Data.dll
 C:\Yura\juve12\Juve.Data\obj\Debug\Juve.Data.pdb

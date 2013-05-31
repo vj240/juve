@@ -117,11 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Дата рождения</value>
+  </data>
+  <data name="BirthDateErrorMessage" xml:space="preserve">
+    <value>Поле Дата рождения не может быть пустым</value>
+  </data>
   <data name="CountryName" xml:space="preserve">
     <value>Название страны</value>
   </data>
   <data name="CountryNameErrorMessage" xml:space="preserve">
     <value>Поле Название страны не может быть пустым</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Дата окончания</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Рост</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Фото</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Имя игрока</value>
+  </data>
+  <data name="PlayerNameErrorMessage" xml:space="preserve">
+    <value>Поле Имя игрока не может быть пустым</value>
   </data>
   <data name="PlayerTypeName" xml:space="preserve">
     <value>Тип игрока</value>
@@ -129,11 +153,23 @@
   <data name="PlayerTypeNameErrorMessage" xml:space="preserve">
     <value>Поле Тип игрока не может быть пустым</value>
   </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="StartDateErrorMessage" xml:space="preserve">
+    <value>Поле Дата начала не может быть пустым</value>
+  </data>
   <data name="TeamName" xml:space="preserve">
     <value>Название команды</value>
   </data>
   <data name="TeamNameErrorMessage" xml:space="preserve">
     <value>Поле Название команды не может быть пустым</value>
+  </data>
+  <data name="TeamNumber" xml:space="preserve">
+    <value>Номер в команде</value>
+  </data>
+  <data name="TeamNumberErrorMessage" xml:space="preserve">
+    <value>Поле Номер в команде не может быть пустым</value>
   </data>
   <data name="YearOfFoundation" xml:space="preserve">
     <value>Год основания</value>

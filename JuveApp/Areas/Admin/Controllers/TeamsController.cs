@@ -8,8 +8,7 @@ using JuveApp.Core;
 
 namespace JuveApp.Areas.Admin.Controllers
 {
-    //[Authorize(Roles = "Admin")]
-    [Authorize(Users = "vj")]
+    [Authorize(Roles = "Admin")]
     public class TeamsController : BaseController
     {
         private readonly ITeamsRepository _repository;
@@ -49,7 +48,6 @@ namespace JuveApp.Areas.Admin.Controllers
                 _repository.AddItem(team);
                 return RedirectToAction("Index");
             }
-            ViewBag.Countries = Db.Countries.ToList();
             return View(team);
         }
 

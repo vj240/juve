@@ -44,5 +44,10 @@ namespace Juve.Data
             //rep.AddItem(pt);
 
         }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Player>().HasRequired(oo => oo.Country).WithMany().WillCascadeOnDelete(false);
+        }
     }
 }
